@@ -18,6 +18,7 @@ The functions are divided in several categories:
 The project is a good way to learn how to use pointers and memory allocation in C.
 
 
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -35,12 +36,14 @@ The gcc compiler and make must be installed. To install them, run the following 
 	sudo pacman -S base-devel make
 	```
 
+
 ### Installation
 
 1. Clone the repo
 	```sh
 	git clone https://github.com/Eguelin/Libft.git
 	```
+
 
 ### Compilation
 
@@ -63,6 +66,7 @@ The gcc compiler and make must be installed. To install them, run the following 
 	```sh
 	./my_project
 	```
+
 
 
 <!-- FUNCTIONS -->
@@ -98,6 +102,7 @@ The gcc compiler and make must be installed. To install them, run the following 
 	int	ft_toupper(int c);
 	```
 
+
 ### Memory functions
 * ft_bzero:
 	```c
@@ -128,6 +133,7 @@ The gcc compiler and make must be installed. To install them, run the following 
 	void	*ft_memset(void *b, int c, size_t len);
 	```
 
+
 ### Output functions
 * ft_putchar_fd:
 	```c
@@ -145,6 +151,7 @@ The gcc compiler and make must be installed. To install them, run the following 
 	```c
 	void	ft_putstr_fd(char *s, int fd);
 	```
+
 
 ### String functions
 * ft_strchr:
@@ -200,6 +207,7 @@ The gcc compiler and make must be installed. To install them, run the following 
 	char	*ft_substr(char const *s, unsigned int start, size_t len);
 	```
 
+
 ### Other functions
 * ft_atoi:
 	```c
@@ -214,19 +222,20 @@ The gcc compiler and make must be installed. To install them, run the following 
 	char	**ft_split(char const *s, char c);
 	```
 
+
 ### Bonus functions / List functions
 
 The following functions are part of the bonus functions of the project.
 They are functions that are not part of the standard C library.
 
 The structure of the list is as follows:
-```c
-typedef struct	s_list
-{
-	void			*content;
-	struct s_list	*next;
-}				t_list;
-```
+	```c
+	typedef struct s_list
+	{
+		void			*content;
+		struct s_list	*next;
+	}	t_list;
+	```
 
 The functions are:
 * ft_lstnew:
