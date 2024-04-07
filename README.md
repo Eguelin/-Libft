@@ -229,14 +229,13 @@ The following functions are part of the bonus functions of the project.
 They are functions that are not part of the standard C library.
 
 The structure of the list is as follows:
-
-	```c
-	typedef struct s_list
-	{
-		void			*content;
-		struct s_list	*next;
-	}	t_list;
-	```
+```c
+typedef struct s_list
+{
+	void			*content;
+	struct s_list	*next;
+}	t_list;
+```
 
 The functions are:
 * ft_lstnew:
