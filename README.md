@@ -1,6 +1,5 @@
 # LIBFT
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -15,9 +14,10 @@ The functions are divided in several categories:
 	<li><a href="#other-functions">Other functions</a></li>
 	<li><a href="#bonus-functions--list-functions">Bonus functions / List functions</a></li>
 </ul>
-The project is a good way to learn how to use pointers and memory allocation in C.
 
+### Built With
 
+* C
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -36,38 +36,34 @@ The gcc compiler and make must be installed. To install them, run the following 
 	sudo pacman -S base-devel make
 	```
 
-
 ### Installation
 
-1. Clone the repo
+* Clone the repo
 	```sh
 	git clone https://github.com/Eguelin/Libft.git
 	```
 
-
 ### Compilation
 
-2. Compile the library
+1. Compile the library
 	```sh
 	make
 	```
 
-3. Use the library in your project
+2. Use the library in your project
 	```c
 	#include "libft.h"
 	```
 
-4. Compile your project with the library
+3. Compile your project with the library
 	```sh
 	gcc -o my_project my_project.c libft.a
 	```
 
-5. Run your project
+4. Run your project
 	```sh
 	./my_project
 	```
-
-
 
 <!-- FUNCTIONS -->
 ## Functions
@@ -102,7 +98,6 @@ The gcc compiler and make must be installed. To install them, run the following 
 	int	ft_toupper(int c);
 	```
 
-
 ### Memory functions
 * ft_bzero:
 	```c
@@ -133,7 +128,6 @@ The gcc compiler and make must be installed. To install them, run the following 
 	void	*ft_memset(void *b, int c, size_t len);
 	```
 
-
 ### Output functions
 * ft_putchar_fd:
 	```c
@@ -151,7 +145,6 @@ The gcc compiler and make must be installed. To install them, run the following 
 	```c
 	void	ft_putstr_fd(char *s, int fd);
 	```
-
 
 ### String functions
 * ft_strchr:
@@ -207,7 +200,6 @@ The gcc compiler and make must be installed. To install them, run the following 
 	char	*ft_substr(char const *s, unsigned int start, size_t len);
 	```
 
-
 ### Other functions
 * ft_atoi:
 	```c
@@ -221,7 +213,6 @@ The gcc compiler and make must be installed. To install them, run the following 
 	```c
 	char	**ft_split(char const *s, char c);
 	```
-
 
 ### Bonus functions / List functions
 
